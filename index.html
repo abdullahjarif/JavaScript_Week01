@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <div class="homework">
+
+        <div class="hw_1">
+            <h1>Multiplication Table</h1>
+            <label for="number">Enter a number:</label>
+            <input type="number" id="number" value="1" min="1" max="12">
+            <button onclick="generateTable()">Generate Table</button>
+
+            <table id="multiplicationTable" border="1" style="margin-top: 20px;">
+                <thead>
+                    <tr>
+                        <th>Multiplier</th>
+                        <th>Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="hw_2">
+            <h1>Age-Based Advice Table</h1>
+            <label for="age">Enter Age:</label>
+            <input type="number1" name="age" id="age" value="18" min="1" max="100">
+
+            <button onclick="showAdvice()">Check Advice</button>
+
+            <table id="ageAdviceTable" border="1">
+                <thead>
+                    <tr>
+                        <th>Age</th>
+                        <th>Advice</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    
+
+    
+<script src="./js/script.js"></script>
+</body>
+</html>
